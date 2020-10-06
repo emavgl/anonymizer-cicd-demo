@@ -42,4 +42,4 @@ jobs:
 
     - name: Deploy artifact
       run: |
-        python -c "from databrickslabs_cicdtemplates import release_cicd_pipeline; release_cicd_pipeline.main('integration-tests', 'pipelines', True, env='${DATABRICKS_ENV}');"
+        python -c "from databrickslabs_cicdtemplates import release_cicd_pipeline; release_cicd_pipeline.main('integration-tests', 'pipelines', False, env='${DATABRICKS_ENV}');"
