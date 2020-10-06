@@ -1,0 +1,5 @@
+{
+    "source_table_path": "/mnt/datalake/important_people.delta",
+    "destination_table_path": "/mnt/datalake/important_people_anonymized.delta",
+    "destination_table_partitions": ["country"]
+}

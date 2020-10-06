@@ -1,0 +1,3 @@
+model-name: analyticsbackend
+experiment-path: /Shared/CICD/cicd
+cloud: Azure

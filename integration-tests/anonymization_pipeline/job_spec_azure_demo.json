@@ -1,0 +1,27 @@
+{
+    "name": "Anonymization pipeline Integration Test",
+    "new_cluster": {
+      "spark_version": "7.3.x-cpu-ml-scala2.12",
+      "num_workers": 4,
+      "spark_conf": {
+        "spark.databricks.delta.preview.enabled": "true",
+        "spark.databricks.conda.condaMagic.enabled": "true"
+      },
+      "node_type_id": "Standard_DS3_v2"
+    },
+    "libraries": [
+    ],
+    "email_notifications": {
+      "on_start": [],
+      "on_success": [],
+      "on_failure": []
+    },
+    "max_retries": 0,
+    "spark_python_task": {
+      "python_file": "will get filled automatically",
+      "parameters": [
+        "databricks-config.json"
+      ]
+    }
+  }
+  

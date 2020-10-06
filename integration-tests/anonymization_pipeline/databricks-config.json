@@ -1,0 +1,8 @@
+{
+    "source_table_path": "./resources/output/source.delta",
+    "destination_table_path": "./resources/output/destination.delta",
+    "destination_table_partitions": ["country"],
+    "test_folder": "./resources/output",
+    "tests_input": "./resources/data/input.json",
+    "expected_output": "./resources/data/expected.json"
+}
